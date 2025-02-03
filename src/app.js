@@ -33,7 +33,7 @@ window.onload = function() {
    
     if (color === "red" ){
       cardItem.style.color = "red"
-      clubLeft.style.color = "red"
+      clubLeft.style.color = "black"
       clubRight.style.color = "red"
     }
     else{
