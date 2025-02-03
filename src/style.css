@@ -1,5 +1,39 @@
 @import "bootstrap/dist/css/bootstrap.min.css";
 
-body{
-    background: blue;
+body {
+    background: green;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.card {
+    background: white;
+    width: 70vh;
+    height: 90vh;
+    margin-top: 5vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 10rem;
+    position: relative; 
+    border-radius: 10px;
+}
+
+#club-l, #club-r {
+    position: absolute;
+    font-size: 6rem;
+}
+
+#club-l {
+    top: 0px;
+    left: 1vh;
+}
+
+#club-r {
+    bottom: 0px;
+    right: 1vh;
 }
