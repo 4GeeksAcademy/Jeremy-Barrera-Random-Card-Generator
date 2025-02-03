@@ -36,4 +36,5 @@ body {
 #club-r {
     bottom: 0px;
     right: 1vh;
+    transform: rotate(180deg);
 }
